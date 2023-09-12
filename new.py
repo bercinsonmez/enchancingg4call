@@ -41,7 +41,7 @@ def CallRNAfold(filename):
 
 if __name__ == "__main__":
     # Capture both score and rows from CallRNAfold
-    scores, o1 = CallRNAfold("example.fasta")
+    scores, o1 = CallRNAfold("../thesis/example.fasta")
     Seq = o1[1]
     DBN = o1[2]
 

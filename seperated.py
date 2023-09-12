@@ -1,6 +1,6 @@
 from Bio import SeqIO
 
-filename = "example.fasta"
+filename = "../thesis/example.fasta"
 
 with open("output.txt", "w") as output_file:
     for record in SeqIO.parse(filename, "fasta"):

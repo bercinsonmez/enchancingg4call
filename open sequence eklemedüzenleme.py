@@ -27,7 +27,7 @@ def CallRNAfold(filename, temp=37):
 
 
 if __name__=="__main__":
-    o1=CallRNAfold("example.fasta")[1]
+    o1=CallRNAfold("../thesis/example.fasta")[1]
     Seq=o1[1]
     DBN=o1[2]
     splitSequences=[]
@@ -39,7 +39,7 @@ if __name__=="__main__":
         curChar=DBN[pos]
         if (curChar=="("):
             if (openSequence.__contains__(curlvl)):
-                openSequence[curlvl]+="/"
+                openSequence[curlvl]+="e"
 
             curlvl+=1
 

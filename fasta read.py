@@ -1,7 +1,7 @@
 from Bio import SeqIO
 
 # Replace "example.fasta.fasta" with the path to your FASTA file
-fasta_file = "example.fasta"
+fasta_file = "../thesis/example.fasta"
 
 try:
     # Use SeqIO.parse to read the file and return a generator of SeqRecord objects
