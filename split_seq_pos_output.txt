@@ -1,0 +1,26 @@
+>Level: 22 | Temp: 32.0 | Score: -23.45
+27-32
+>Level: 20 | Temp: 32.0 | Score: -23.45
+35
+>Level: 16 | Temp: 32.0 | Score: -23.45
+40-42
+>Level: 9 | Temp: 32.0 | Score: -23.45
+13,50-51
+>Level: 3 | Temp: 32.0 | Score: -23.45
+3-6,58-59
+>Level: 0 | Temp: 32.0 | Score: -23.45
+63-67
+
+>Level: 22 | Temp: 44.0 | Score: -17.21
+27-32
+>Level: 20 | Temp: 44.0 | Score: -17.21
+35
+>Level: 16 | Temp: 44.0 | Score: -17.21
+40-42
+>Level: 9 | Temp: 44.0 | Score: -17.21
+13,50-51
+>Level: 3 | Temp: 44.0 | Score: -17.21
+3-6,58-59
+>Level: 0 | Temp: 44.0 | Score: -17.21
+63-67
+
