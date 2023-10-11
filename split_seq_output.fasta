@@ -1,24 +1,58 @@
->Level: 22 | Temp: 32.0 | Score: -23.45
+>NC_0000000 Level: 23 | Temp: 30.0 | Score: -24.58
 TAGCAT
->Level: 20 | Temp: 32.0 | Score: -23.45
+>NC_0000000 Level: 21 | Temp: 30.0 | Score: -24.58
 A
->Level: 16 | Temp: 32.0 | Score: -23.45
+>NC_0000000 Level: 17 | Temp: 30.0 | Score: -24.58
 TCA
->Level: 9 | Temp: 32.0 | Score: -23.45
+>NC_0000000 Level: 10 | Temp: 30.0 | Score: -24.58
 GeGT
->Level: 3 | Temp: 32.0 | Score: -23.45
-ACGTeTG
->Level: 0 | Temp: 32.0 | Score: -23.45
-TGGGT
->Level: 22 | Temp: 44.0 | Score: -17.21
+>NC_0000000 Level: 4 | Temp: 30.0 | Score: -24.58
+GTeTGG
+>NC_0000000 Level: 3 | Temp: 30.0 | Score: -24.58
+T
+>NC_0000000 Level: 0 | Temp: 30.0 | Score: -24.58
+GeGT
+>NC_0000000 Level: 22 | Temp: 40.0 | Score: -19.26
 TAGCAT
->Level: 20 | Temp: 44.0 | Score: -17.21
+>NC_0000000 Level: 20 | Temp: 40.0 | Score: -19.26
 A
->Level: 16 | Temp: 44.0 | Score: -17.21
+>NC_0000000 Level: 16 | Temp: 40.0 | Score: -19.26
 TCA
->Level: 9 | Temp: 44.0 | Score: -17.21
+>NC_0000000 Level: 9 | Temp: 40.0 | Score: -19.26
 GeGT
->Level: 3 | Temp: 44.0 | Score: -17.21
+>NC_0000000 Level: 3 | Temp: 40.0 | Score: -19.26
 ACGTeTG
->Level: 0 | Temp: 44.0 | Score: -17.21
+>NC_0000000 Level: 0 | Temp: 40.0 | Score: -19.26
 TGGGT
+>NC_0000000 Level: 22 | Temp: 50.0 | Score: -14.05
+TAGCAT
+>NC_0000000 Level: 20 | Temp: 50.0 | Score: -14.05
+A
+>NC_0000000 Level: 16 | Temp: 50.0 | Score: -14.05
+TCA
+>NC_0000000 Level: 9 | Temp: 50.0 | Score: -14.05
+GeGT
+>NC_0000000 Level: 3 | Temp: 50.0 | Score: -14.05
+ACGTeTG
+>NC_0000000 Level: 0 | Temp: 50.0 | Score: -14.05
+TGGGT
+>NC_0000000 Level: 19 | Temp: 60.0 | Score: -9.34
+TAGCAT
+>NC_0000000 Level: 17 | Temp: 60.0 | Score: -9.34
+A
+>NC_0000000 Level: 13 | Temp: 60.0 | Score: -9.34
+TCA
+>NC_0000000 Level: 6 | Temp: 60.0 | Score: -9.34
+GeGT
+>NC_0000000 Level: 0 | Temp: 60.0 | Score: -9.34
+GCTACGTeTGGGTTGGGT
+>NC_0000000 Level: 19 | Temp: 70.0 | Score: -4.83
+TAGCAT
+>NC_0000000 Level: 17 | Temp: 70.0 | Score: -4.83
+A
+>NC_0000000 Level: 13 | Temp: 70.0 | Score: -4.83
+TCA
+>NC_0000000 Level: 6 | Temp: 70.0 | Score: -4.83
+GeGT
+>NC_0000000 Level: 0 | Temp: 70.0 | Score: -4.83
+GCTACGTeTGGGTTGGGT

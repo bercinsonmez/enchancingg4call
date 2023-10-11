@@ -1,26 +1,63 @@
->Level: 22 | Temp: 32.0 | Score: -23.45
+>NC_0000000 | Level: 23 | Temp: 30.0 | Score: -24.58
 27-32
->Level: 20 | Temp: 32.0 | Score: -23.45
+>NC_0000000 | Level: 21 | Temp: 30.0 | Score: -24.58
 35
->Level: 16 | Temp: 32.0 | Score: -23.45
+>NC_0000000 | Level: 17 | Temp: 30.0 | Score: -24.58
 40-42
->Level: 9 | Temp: 32.0 | Score: -23.45
+>NC_0000000 | Level: 10 | Temp: 30.0 | Score: -24.58
 13,50-51
->Level: 3 | Temp: 32.0 | Score: -23.45
+>NC_0000000 | Level: 4 | Temp: 30.0 | Score: -24.58
+5-6,58-60
+>NC_0000000 | Level: 3 | Temp: 30.0 | Score: -24.58
+62
+>NC_0000000 | Level: 0 | Temp: 30.0 | Score: -24.58
+0,66-67
+
+>NC_0000000 | Level: 22 | Temp: 40.0 | Score: -19.26
+27-32
+>NC_0000000 | Level: 20 | Temp: 40.0 | Score: -19.26
+35
+>NC_0000000 | Level: 16 | Temp: 40.0 | Score: -19.26
+40-42
+>NC_0000000 | Level: 9 | Temp: 40.0 | Score: -19.26
+13,50-51
+>NC_0000000 | Level: 3 | Temp: 40.0 | Score: -19.26
 3-6,58-59
->Level: 0 | Temp: 32.0 | Score: -23.45
+>NC_0000000 | Level: 0 | Temp: 40.0 | Score: -19.26
 63-67
 
->Level: 22 | Temp: 44.0 | Score: -17.21
+>NC_0000000 | Level: 22 | Temp: 50.0 | Score: -14.05
 27-32
->Level: 20 | Temp: 44.0 | Score: -17.21
+>NC_0000000 | Level: 20 | Temp: 50.0 | Score: -14.05
 35
->Level: 16 | Temp: 44.0 | Score: -17.21
+>NC_0000000 | Level: 16 | Temp: 50.0 | Score: -14.05
 40-42
->Level: 9 | Temp: 44.0 | Score: -17.21
+>NC_0000000 | Level: 9 | Temp: 50.0 | Score: -14.05
 13,50-51
->Level: 3 | Temp: 44.0 | Score: -17.21
+>NC_0000000 | Level: 3 | Temp: 50.0 | Score: -14.05
 3-6,58-59
->Level: 0 | Temp: 44.0 | Score: -17.21
+>NC_0000000 | Level: 0 | Temp: 50.0 | Score: -14.05
 63-67
+
+>NC_0000000 | Level: 19 | Temp: 60.0 | Score: -9.34
+27-32
+>NC_0000000 | Level: 17 | Temp: 60.0 | Score: -9.34
+35
+>NC_0000000 | Level: 13 | Temp: 60.0 | Score: -9.34
+40-42
+>NC_0000000 | Level: 6 | Temp: 60.0 | Score: -9.34
+13,50-51
+>NC_0000000 | Level: 0 | Temp: 60.0 | Score: -9.34
+0-6,58-67
+
+>NC_0000000 | Level: 19 | Temp: 70.0 | Score: -4.83
+27-32
+>NC_0000000 | Level: 17 | Temp: 70.0 | Score: -4.83
+35
+>NC_0000000 | Level: 13 | Temp: 70.0 | Score: -4.83
+40-42
+>NC_0000000 | Level: 6 | Temp: 70.0 | Score: -4.83
+13,50-51
+>NC_0000000 | Level: 0 | Temp: 70.0 | Score: -4.83
+0-6,58-67
 

@@ -164,6 +164,13 @@ if __name__ == "__main__":
     # Her bir sıcaklık değerini kullanarak işlem yapabilirsiniz
     for temp_value in temperature_range:
         scr, o1 = CallRNAfold("example.fasta", temp_value)
+        #CREATES:
+        #   1 ps file for each entry in input fasta file,
+        #   output.txt: empty
+        #   split_seq_pos.output.txt: empty
+        #   temp_output.fold: contains the DBN for each entry. inclluding the deltaG
+
+
         definition=open("example.fasta","r").readline()[1:-1]
 
         Seq = o1[1]
@@ -208,6 +215,7 @@ if __name__ == "__main__":
         # splitSeqPos verilerini dosyaya yaz
 
         write_split_seq_pos_to_file(definition, temp_value, splitSeqPos, scr, split_output_filename)
+        #POPULATES: split_seq_output.txt is populated
 
         output_filename = f"output_{temp_value}.fasta"  # Çıktı dosyasının adını sıcaklık aralığına göre belirle
 
@@ -219,9 +227,13 @@ if __name__ == "__main__":
                 description = "{} Level: {} | Temp: {} | Score: {}".format(definition, level, temp_value, scr)
                 output_file.write(">" + description + "\n" + sequence + "\n")
                 print(">" + description + "\n" + sequence + "\n")
+        #CREATES: output_{temp}.fasta is created and populated
+
 
     # Çıktı dosyalarını birleştir ve tek bir dosyada sakla
     merge_output_files(temperature_range, "merged_output.fasta")
+    # REMOVES: output_{temp}.fasta
+    # CREATES: merged_output.fasta
 
     subprocess.run("python.exe g4catchall.py --fasta merged_output.fasta >> G4out.txt",shell=True)
 
