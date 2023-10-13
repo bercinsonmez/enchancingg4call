@@ -61,3 +61,17 @@
 >NC_0000000 | Level: 0 | Temp: 70.0 | Score: -4.83
 0-6,58-67
 
+>NC_0000000 | Level: 8 | Temp: 80.0 | Score: -1.98
+10-20
+>NC_0000000 | Level: 4 | Temp: 80.0 | Score: -1.98
+4-5,25-26
+>NC_0000000 | Level: 0 | Temp: 80.0 | Score: -1.98
+31-67
+
+>NC_0000000 | Level: 8 | Temp: 90.0 | Score: -0.33
+10-20
+>NC_0000000 | Level: 4 | Temp: 90.0 | Score: -0.33
+4-5,25-26
+>NC_0000000 | Level: 0 | Temp: 90.0 | Score: -0.33
+31-67
+

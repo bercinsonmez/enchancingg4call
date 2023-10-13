@@ -346,8 +346,8 @@ if args.fasta == '-':
 
 
 def ReverseComplement(seq):
-    seq1 = 'ATCGNWSMKRYBDHVatcgnwsmkrybdhv'
-    seq2 = 'TAGCNWSKMYRVHDBtagcnwskmyrvhdb'
+    seq1 = 'ATCGNWSMKRYBDHVatcgnwsmkrybdhve'
+    seq2 = 'TAGCNWSKMYRVHDBtagcnwskmyrvhdbe'
     seq_dict = {seq1[i]: seq2[i] for i in range(len(seq1))}
     return "".join([seq_dict[base] for base in reversed(seq)])
 

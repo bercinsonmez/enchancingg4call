@@ -1,6 +1,12 @@
 >NC_0000000
 GCTACGTGACTCAGTCAGTACGTCAGCTAGCATGCATGACTCAGTACTGGGTTGGGTTTGGGTTGGGT
-.......((((((.(((((((((((((......)).))))...)))))))..)))))).......... ( -4.83)
+((((..((((...........))))..))))..................................... ( -0.33)
 >NC_0000001
-GCTACGTGACTCAGTCAGTACGTCAGCTAGCATGCATGACTCAGTACTGGGTTGGGTTTGGGTTGGGT
-.......((((((.(((((((((((((......)).))))...)))))))..)))))).......... ( -4.83)
+GCTACGTGACTCAGTCAGTACGTCAGCTAGCATGCATGACTCAGTACTGGGCAGTACTGTTGGGTTTGGGTTGGGT
+((((..((((...........))))..))))............................................. ( -0.33)
+>NC_0000003
+GCTACGTGACTCAGTCAGTACGTCAGCTAGCATGCATGACTCAGTACTGGGCAGTACTGTTGGGTTTGGGTTGGGT
+((((..((((...........))))..))))............................................. ( -0.33)
+>NC_0000004
+GCTACGTGACTCAGTCAGTACGTCAGCTAGCATGCATGACTCAGTACTGGGCAGTACTGTTGGGTTTGGGTTGGGT
+((((..((((...........))))..))))............................................. ( -0.33)
