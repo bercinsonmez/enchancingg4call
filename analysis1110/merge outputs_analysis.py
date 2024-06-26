@@ -36,72 +36,6 @@ def write_split_seq_pos_to_file(definition, temperature, split_seq_pos, score, o
         output_file.write("\n")
 
 
-# def write_split_seq_pos_to_file(temperature, split_seq_pos, score, output_filename):
-#     with open(output_filename, "a") as output_file:
-#         for level, positions in split_seq_pos:
-#             output_file.write(f">Level: {level} | Temp: {temperature} | Score: {score:.2f}\n")
-#             output_file.write(f"{', '.join(map(str, positions))}\n")
-#             # Pozisyonları ve karşılık gelen karakterleri birlikte yaz
-#         output_file.write("\n")
-""" 
-def write_split_seq_pos_to_file(temperature, split_seq_pos, score, output_filename):
-    with open(output_filename, "w") as output_file:
-        for level, positions in split_seq_pos:
-            description = f">Level: {level} | Temp: {temperature} | Score: {score:.2f}\n"
-            output_file.write(description)
-
-            start_pos = positions[0]  # Get the start position for the level
-            sequence = Seq[start_pos:]
-            before_e_pos = sequence.find("e")
-            after_e_pos = sequence.rfind("e") if before_e_pos != -1 else None
-
-            output_file.write(f"Start Position: {start_pos}\n")
-            if before_e_pos != -1:
-                before_e_pos += start_pos
-                output_file.write(f"Before 'e' Position: {before_e_pos}\n")
-            if after_e_pos is not None:
-                after_e_pos += start_pos
-                output_file.write(f"After 'e' Position: {after_e_pos}\n")
-
-            output_file.write("\n")
-
-"""
-
-
-# def write_split_seq_pos_to_file(temperature, split_seq_pos, score, output_filename):
-#     with open(output_filename, "w") as output_file:
-#         for level, positions in split_seq_pos:
-#             description = f">Level: {level} | Temp: {temperature} | Score: {score:.2f}\n"
-#             output_file.write(description)
-#
-#             start_pos = positions[0]  # Seviyenin başlangıç pozisyonunu al
-#             sequence = Seq[start_pos:]
-#
-#             # "e" harfinin pozisyonlarını bul
-#             e_positions = [i for i, char in enumerate(sequence) if char == "e"]
-#
-#             output_file.write(f"Start Position: {start_pos}\n")
-#
-#             # Eğer "e" harfi bulunursa, pozisyonlarını yaz
-#             if e_positions:
-#                 e_positions_str = ', '.join(map(str, [pos + start_pos for pos in e_positions]))
-#                 output_file.write(f"'e' Positions: {e_positions_str}\n")
-#
-#                 # "e" harfi pozisyonları için, önceki ve sonraki pozisyonları yaz
-#                 for e_pos in e_positions:
-#                     before_e_pos = e_pos - 1
-#                     after_e_pos = e_pos + 1
-#
-#                     # Önceki pozisyonu yaz
-#                     if before_e_pos >= start_pos:
-#                         output_file.write(f"Before 'e' Position: {before_e_pos}\n")
-#
-#                     # Sonraki pozisyonu yaz
-#                     if after_e_pos < start_pos + len(sequence):
-#                         output_file.write(f"After 'e' Position: {after_e_pos}\n")
-#
-#             output_file.write("\n")
-
 
 def generate_temperature_ranges(start, end, step):
     # Belirtilen başlangıçtan sona kadar olan sıcaklık aralıklarını oluşturur.
@@ -257,7 +191,5 @@ if __name__ == "__main__":
         subprocess.run("python.exe g4catchall.py --fasta merged_output.fasta >> G4out.txt", shell=True)
 
 
-        # output_filename = "g4catchall_output.txt"
-        # with open("g4catchall_output.txt", "w") as output_file:
-        # subprocess.run("python.exe g4catchall.py --fasta merged_output.fasta")
+
 
